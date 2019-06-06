@@ -1,14 +1,14 @@
-package exportCSV;
+package export;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class ExportCSVController {
+public class ExportController {
 
     @RequestMapping("/")
     public String index() {
-        return "<h1>Export CSV index!<h1>";
+        return "<h1>Export index!<h1>";
     }
 
     @RequestMapping("/health")

@@ -5,4 +5,4 @@ COPY    . .
 RUN     ./gradlew test build
 
 ENTRYPOINT ["java"]
-CMD ["-jar", "build/libs/exportCSV-java-0.1.0.jar"]
+CMD ["-jar", "build/libs/export-java-0.1.0.jar"]

@@ -1,4 +1,4 @@
-package exportCSV;
+package export;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,7 +24,7 @@ public class ApplicationTest {
     public void rootTest() throws Exception {
         mvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("<h1>Export CSV index!<h1>"));
+                .andExpect(content().string("<h1>Export index!<h1>"));
     }
 
     @Test

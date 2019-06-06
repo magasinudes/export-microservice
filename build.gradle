@@ -22,8 +22,8 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
 bootJar {
-    baseName = 'exportCSV-microservice'
-    mainClassName = 'exportCSV.Application'
+    baseName = 'export-microservice'
+    mainClassName = 'export.Application'
     version =  '0.1.0'
 }
 
